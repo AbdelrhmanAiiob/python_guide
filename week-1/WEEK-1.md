@@ -1,11 +1,11 @@
-# Back to [README](README.md)
+# Back to [README](../README.md)
 
 - ALL DATA IN PYTHON IS OBJECT -
 - COMMENTS IS VERY IMPORTANT IF USE IT RIGHT -
 - type() => built-in function to know data types -
+
 ### dataTypes:-
 #### The starter pack will deal with.
-
 
 ```py
 
@@ -67,3 +67,19 @@ print(help('keywords'))
 			* translate line by line with runtime
 			* discover the error once found so slower than 'Compiled'
 
+#next 
+scape characters (most use=9)
+
+\b
+\
+\n
+\\
+\'
+\"
+\r
+\t
+\xhex
+
+strings 
+
+indexing & slicing

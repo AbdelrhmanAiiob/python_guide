@@ -2,7 +2,7 @@
 
 ## **Goals** :-
 - Understand deep algorithm and learn fundamental
-- always clean code in-( problem solve codes ) not explain and learn
+- always clean code 
 - Refresh self-mind in future
 
 ## **MAP** :-
@@ -16,4 +16,4 @@
 
 ---
 
-[1WEEK](WEEK-1.md)
+[1WEEK](/week-1/WEEK-1.md)
