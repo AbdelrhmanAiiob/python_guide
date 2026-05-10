@@ -67,19 +67,97 @@ print(help('keywords'))
 			* translate line by line with runtime
 			* discover the error once found so slower than 'Compiled'
 
-#next 
-scape characters (most use=9)
+### scape characters (most use=9)
+#### use it on strings "\character"
 
-\b
-\
-\n
-\\
-\'
-\"
-\r
-\t
-\xhex
+\b => back space
+```py
 
-strings 
+print("Hello\bWorld") #=> HellWorld
+
+```
+
+\ => line escape 
+```py
+
+print("Hello\
+python\
+World") #=> HelloPythonWorld
+
+```
+\n => create new line
+```py
+
+print("Hello\nWorld") #=> Hello \n World
+
+```
+
+\\ => back slash escape 
+```py
+
+print("Hello\\World") #=> Hello\World
+
+```
+
+\' => single quote scape
+```py
+
+print("Hello\'World")
+
+```
+
+\" => double quotes scape
+```py
+
+print("Hello\"World")
+
+```
+
+\r => carriage return | take after '\r' word length and replaced in the first
+```py
+
+print("12345678\rWorld") #=> World678 
+
+```
+
+\t => tap
+```py
+
+print("Hello\tWorld") #=> Hello   World
+
+```
+
+\xhex #=> Hex value
+```py
+
+print("\x61\x69\x69\x6F\x62")
+
+```
+
+### strings 
+  - ''' & """ 
+    - save the output string write with same design
+
+```py
+
+print(
+  '''lorem,
+  why gtaVI not released till now rockstar
+  ??????
+  '''
+) #=> The Output be the same
+
+```
+
 
 indexing & slicing
+
+```py
+
+word= "django"
+
+print(word[1])
+print(word[3])
+print(word[-1])
+
+```
