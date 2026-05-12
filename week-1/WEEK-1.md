@@ -1,8 +1,10 @@
-# Back to [README](../README.md)
+* __Go to__
+	* __[README](../README.md)__
+	* __[Code.py](main.py)__
 
-- ALL DATA IN PYTHON IS OBJECT -
-- COMMENTS IS VERY IMPORTANT IF USE IT RIGHT -
-- type() => built-in function to know data types -
+1. ALL DATA IN PYTHON IS OBJECT -
+2.  COMMENTS IS VERY IMPORTANT IF USE IT RIGHT -
+3. type() => built-in function to know data types -
 
 ### dataTypes:-
 #### The starter pack will deal with.
@@ -23,7 +25,7 @@ print(type((1, 2, 'test')))   #=> tuple
 
 print(type({1, 2, 'python'})) #=> set
 
-print1(type({'key':'value', 'age':21})) #=> dictionary
+print(type({'key':'value', 'age':21})) #=> dictionary
 
 ```
 
@@ -45,11 +47,11 @@ isLegit= 'True'  # camelCase
 
 # Reversed Keywords:-
 	  # cannot save data in memory with those names.
-print(help('keywords'))
+help('keywords')
 
 ```
 
-### Need to Know
+### Need to Know.
 
 * **Source Code**
 	* the original code you write
@@ -67,7 +69,8 @@ print(help('keywords'))
 			* translate line by line with runtime
 			* discover the error once found so slower than 'Compiled'
 
-### scape characters (most use=9)
+### scape characters:- 
+#### most use= 9
 #### use it on strings "\character"
 
 \b => back space
@@ -102,14 +105,14 @@ print("Hello\\World") #=> Hello\World
 \' => single quote scape
 ```py
 
-print("Hello\'World")
+print("Hello\'World") #=> Hello'World
 
 ```
 
 \" => double quotes scape
 ```py
 
-print("Hello\"World")
+print("Hello\"World") #=> Hello"World
 
 ```
 
@@ -130,11 +133,11 @@ print("Hello\tWorld") #=> Hello   World
 \xhex #=> Hex value
 ```py
 
-print("\x61\x69\x69\x6F\x62")
+print("\x61\x69\x69\x6F\x62") #=> aiiob
 
 ```
 
-### strings 
+### strings:-
   - ''' & """ 
     - save the output string write with same design
 
@@ -149,15 +152,129 @@ print(
 
 ```
 
-
-indexing & slicing
+### indexing:-
+- All data in python is object
+- Every object has he's own elements
+- Every element is an index and can access on it
+- Can access on strings, lists, tuples, dictionaries, etc
 
 ```py
 
 word= "django"
 
-print(word[1])
-print(word[3])
-print(word[-1])
+print(word[1]) #=> j
+print(word[3]) #=> n
+print(word[-1]) #=> o
+
+players= [1, 2, 3, 4, 5, 'messi']
+print(players[-1][0]) #=> m
+
+```
+### slicing:-
+- last not included
+- have [start(0) : end : steps(1)]
+
+```py
+
+msg= '''lorem, why gtaVI not released till now rockstar ?????? '''
+
+print(msg[:6]) #=> lorem,
+print(msg[11:17]) #=> gtaVI
+print(msg[::2]) #=> skip one character
+
+```
+
+### stings methods:-
+
+##### strip, rstrip, lstrip
+- Remove the addons from the 'string' by default remove spaces
+- .split() work on both sides before, after
+- space is a character
+- can append characters
+
+```py
+
+.strip() 
+.lstrip() 
+.rstrip()
+
+```
+
+##### title, capitalize
+```py
+
+.title()      #=> make the first character in every word is upper and after 'int'
+.capitalize() #=> make the first character in just the first word upper and not after int
+
+```
+
+##### zfill
+- put '0' before 'int' in 'string' type
+- take the bigger num count as an argument
+
+```py
+
+.zfill()
+
+```
+
+##### split, rsplit
+- convert the strings to list 
+- by default replace 'space' to 'comma'
+- take max num
+
+```py
+
+.split, .rsplit
+
+```
+
+##### upper, lower
+```py
+
+.upper() #=> make all characters uppercase
+.lower() #=> make all characters lowercase
+
+```
+
+##### center
+- put extensions on the string
+- take width, addon
+- reduce the input width with the extension and put the rest on both sides 
+- if the rest not equal, will put the bugger after
+
+```py
+
+.center(5, "#")
+
+```
+##### count
+- count the string character
+- case sensitive
+- if give word will count it, if give just an letter will count it
+
+```py
+
+.count()
+
+```
+
+##### swapcase
+```py
+
+.swapcase()
+
+```
+
+
+##### strtswith, endswith
+- return BOOL
+- take character, start, end
+- slice? - so last not included & zero based
+
+```py
+
+.startswith()
+.endswith()
 
 ```
