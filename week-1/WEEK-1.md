@@ -278,3 +278,70 @@ print(msg[::2]) #=> skip one character
 .endswith()
 
 ```
+
+##### index
+- take substring, start, end
+- if not found return error
+
+
+##### find
+- take substring, start, end
+-  if not found return '-1'
+
+
+##### rjust, ljust
+- take width, fill character
+
+
+##### splitlines
+- return list by using new lines as a comma
+
+##### expandtabs
+- control on tabs by replacing '\t' character to whitespaces
+- take int
+
+
+##### istitle
+- return bool
+
+
+##### isspace
+- return bool
+
+
+##### islower
+- return bool
+
+
+##### isidentifier
+- return bool 
+- can be varName
+
+
+##### isalpha
+- return bool
+
+
+##### isalnum
+- return bool 
+- have alpha or num
+
+
+##### replace
+- take oldValue, newValue, count(how many times right->left)
+
+
+##### join
+- take iterable(an element that accept 'looping')
+- change LTSD to str and replace the comma with the separator
+
+```py
+# syntax.
+
+## who need to join?
+'-'
+
+### join to what?
+'-'.join(element)
+
+```
