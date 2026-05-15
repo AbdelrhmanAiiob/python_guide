@@ -196,3 +196,37 @@ print(privileges.isalnum(), end='\n\n')
 fruits= ["apple", "banana", "cherry"]
 print(' & '.join(fruits), end='\n\n')
 
+print('\n'); print('-' * 20, end='\n\n')
+
+# formatting:-
+user_name= 'aiiob'
+user_age= 20
+money_bank= 5684811
+
+## needed output - in 'one line'
+"""
+Hello MR.'Aiiob' 
+
+Age: 20
+
+Credits = 5,684,811.00
+"""
+
+# _old
+## :s => string
+## :d => digit
+## :f => float => '.numf' => make after . num in float
+
+print(
+  "hello MR.'{}'\n\nAge: {}\n\nCredits = {:,.2f}".format(user_name.capitalize(), user_age, money_bank)
+)
+
+print('-'*20)
+
+# _new
+## f'' => formatting operator
+
+print(
+  f"hello MR.'{user_name.capitalize()}'\n\nAge: {user_age}\n\nCredits = {money_bank:,.2f}"
+  )
+

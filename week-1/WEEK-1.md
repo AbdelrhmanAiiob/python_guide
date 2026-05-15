@@ -62,12 +62,12 @@ help('keywords')
 	* have two different types
 		* Compiled
 			* translate the whole file before runtime
-			* translate and return the execute file so much faster than 'Interpreter'
+			* translate and return the execute file, so much faster than 'Interpreter'
 			* discover the error before the execute 
 		
 		* Interpreter
 			* translate line by line with runtime
-			* discover the error once found so slower than 'Compiled'
+			* discover the error once found, so slower than 'Compiled'
 
 ### scape characters:- 
 #### most use= 9
@@ -345,3 +345,10 @@ print(msg[::2]) #=> skip one character
 '-'.join(element)
 
 ```
+### formatting:-
+* OLD_.format()
+  * 'name {:s} age{:d} rank{:f}'.format(name, age, rank)
+
+* NEW_formatOperator
+  * f'name {variable}, age{variable}'
+
