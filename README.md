@@ -1,11 +1,11 @@
 # **Guide**
 
-## **Goals** :-
+1. **Goals** :-
 - Understand deep algorithm and learn fundamental
 - always clean code 
 - Refresh self-mind in future
 
-## **MAP** :-
+2. **MAP** :-
 
 * weekly.    
 	* 18 video course to study.
