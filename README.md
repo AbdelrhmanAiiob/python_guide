@@ -1,4 +1,4 @@
-# **python_guide**
+# **Guide**
 
 ## **Goals** :-
 - Understand deep algorithm and learn fundamental
