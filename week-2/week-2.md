@@ -10,6 +10,8 @@
   |------------|--------|------------|
   |Exponent|**|High|
 
+---
+
 * Group 2
   * If there are multiple operators in one expression, they will execute from left -> right
 
@@ -20,6 +22,8 @@
   |Floor division|//|Medium|
   |Modulus|%|Medium|
 
+---
+
 * Group 3 
   * If there are multiple operators in one expression, they will execute from left -> right
 
@@ -27,6 +31,8 @@
   |------------|--------|------------|
   |Addition|+|Low|
   |Subtraction|-|Low|
+
+---
 
 
 
