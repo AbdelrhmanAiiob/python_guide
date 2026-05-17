@@ -1,6 +1,8 @@
 * __Go to__
 	* __[README](../README.md)__
-	* __[Code.py](main.py)__
+	* __[code.py](main.py)__
+	* __[assignments.py](assignments.py)__
+	<!-- * __[claudeAIassignment.py](assignments.py)__ -->
 
 1. ALL DATA IN PYTHON IS OBJECT -
 2.  COMMENTS IS VERY IMPORTANT IF USE IT RIGHT -

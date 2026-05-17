@@ -12,14 +12,14 @@
 	    	* end of the week assignment
 		* 1H linuxOS study=> terminal, privileges, etc
 	    	* everyday assignment
-		* +Assignments from=> claudeAI
+		<!-- * +Assignments from=> claudeAI -->
 
 ---
 
 * [WEEK-1](/week-1/week-1.md)
 	* [main.py](/week-1/main.py)
 	* [assignments.py](/week-1/assignments.py)
-	* [ai_claude_assignments]()
+	<!-- * [ai_claude_assignments]() -->
 
 ---
 
