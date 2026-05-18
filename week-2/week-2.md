@@ -1,14 +1,14 @@
-* __Go to__
+* **__Go to__**
   * __[README](../README.md)__
   * __[code.py](main.py)__
   * __[assignments.py](assignments.py)__
   <!-- * __[claudeAIassignment.py](assignments.py)__ -->
 
-## Arithmetic Operators:-
+## **Arithmetic Operators:-**
 - Python deal with specific sort bigger -> smaller
   - and specific way if the arithmetic operation have parentheses '()'
 
-### Types & Sort:-
+### **Types & Sort:-**
 * Group 1
   * If there are multiple exponents (**) in one expression, they will execute from right -> left
 
@@ -38,11 +38,6 @@
   |Addition|+|Low|
   |Subtraction|-|Low|
 
----
-
-* Manual arithmetic operation sort.
-
----
 
 ```py
 
@@ -74,6 +69,49 @@
 # The Result => 403536070.0
 
 ```
+
+---
+
+* **Manual arithmetic** operation sort.
+  * now the highest priority go to '()'
+    * #Here | 5**5+(20-1) |> will start with '**20-1**' no matter what. 
+
+
+```py
+(23**4%(6*3)+100/5//2*7**9) 
+
+#1- 6*3            => 18 
+  # (23**4%18+100/5//2*7**9) 
+
+#2- 9**7           => 40353607
+  # (23**4%18+100/5//2*40353607) 
+
+#3- 23**4          => 279841
+  # (279841%18+100/5//2*40353607)
+
+#4- 279841%18      => 13
+  # (13+100/5//2*40353607)
+
+#5- 100/5          => 20.0
+  # (13+20.0//2*40353607)
+
+#5- 20.0//2        => 10.0
+  # (13+10.0*40353607)
+
+#5- 10.0*40353607  => 403536070.0
+  # (13+403536070.0)
+
+#6- 13+403536070.0 => 403536083.0
+  # (403536083.0)
+
+# The Result => 403536083.0
+
+```
+
+---
+
+### **list:-**
+
 
 
 
