@@ -4,22 +4,20 @@
   * __[assignments.py](assignments.py)__
   <!-- * __[claudeAIassignment.py](assignments.py)__ -->
 
-## **Arithmetic Operators:-**
+1. **Arithmetic Operators:-**
 - Python deal with specific sort bigger -> smaller
   - and specific way if the arithmetic operation have parentheses '()'
 
-### **Types & Sort:-**
-* Group 1
-  * If there are multiple exponents (**) in one expression, they will execute from right -> left
+- **Types & Sort:-**
+  * Group 1
+    * If there are multiple exponents (**) in one expression, they will execute from right -> left
 
   |**operator**|**sign**|**priority**|
   |------------|--------|------------|
   |Exponent|**|High|
 
----
-
-* Group 2
-  * If there are multiple operators in one expression, they will execute from left -> right
+  * Group 2
+    * If there are multiple operators in one expression, they will execute from left -> right
 
   |**operator**|**sign**|**priority**|
   |------------|--------|------------|
@@ -28,10 +26,8 @@
   |Floor division|//|Medium|
   |Modulus|%|Medium|
 
----
-
-* Group 3 
-  * If there are multiple operators in one expression, they will execute from left -> right
+  * Group 3 
+    * If there are multiple operators in one expression, they will execute from left -> right
 
   |**operator**|**sign**|**priority**|
   |------------|--------|------------|
@@ -67,14 +63,13 @@
 #8- 0+403536070.0 => 403536070.0
 
 # The Result => 403536070.0
-
 ```
 
 ---
 
-* **Manual arithmetic** operation sort.
-  * now the highest priority go to '()'
-    * #Here | 5**5+(20-1) |> will start with '**20-1**' no matter what. 
+  * **Manual arithmetic** operation sort.
+    * now the highest priority go to '()'
+      * #Here | 5**5+(20-1) |> will start with '**20-1**' no matter what. 
 
 
 ```py
@@ -105,19 +100,124 @@
   # (403536083.0)
 
 # The Result => 403536083.0
-
 ```
 
 ---
 
-### **list:-**
+2. **list:-**
+  * Closed by => []
+  * Not unique so can have diff data types
+  * Ordered so can access all elements in it
+  * Accept add, edit, delete
+```py
 
+# syntax:-
+players= ['mo salah', 'messi', 'cristiano', 'neymar']
+print(players)       #=> ['mo salah', 'messi', 'cristiano', 'neymar']
+print(type(players)) #=> list
 
+games= ['rdr2', '1', 'witcher3', '2']
+print(games)         #=> ['rdr2', '1', 'witcher3', '2']
+print(type(games))   #=> list
+```
+  * **list_index:-**
+```py
+print(players[-1]) #=> neymar
+print(players[0].title())  #=> Mo Salah |> here we can use string methods cause the output is 'string'.
+print(type(players[0]))    #=> str
+print(players[2])  #=> cristiano
+print(players[1])  #=> messi
+```
 
+  * **list_slicing:-**
+    * Slicing return a list of items.
+    * By default slicing move +1 step left-right to forward, to go backwards from u need negative steps.
+```py
 
+print(players[-1 : -3 : -1]) #=> Neymar, Cristiano
+print(players[ :1])  #=> Mo Salah
+```
 
+  * **list_edit:-**
+```py
 
+nationals= ['egypt', 'usa', 'kuwait', 'algeria']
+nationals[1]= 'saudi'
+nationals[-1]= 'jordan' 
+nationals[1]= 'algeria'
+nationals[2]= 3
+print(nationals) #=> ['egypt', 'algeria', 3, 'jordan']
 
+nationals[2 : 4]= ['tunisia']
+print(nationals) #=> ['egypt', 'algeria', 'tunisia']
+```
+
+  * **list_methods:-**
+
+  * append
+    * append data in the last of the list
+    * if append iterable will add as one element
+```py
+
+print('-'*20, end='\n\n')
+rdr2= ['arthur', 'uncle', 'micah']
+rdr2.append('sadie')
+rdr2.append(888)
+print(rdr2) #=> ['arthur', 'uncle', 'micah', 'sadie', 'marry', 888]
+
+rdr2_bad= ['pinkerton', 'red_indian']
+rdr2.append(rdr2_bad) #=> ['arthur', 'uncle', 'micah', 'sadie', 888, ['pinkerton', 'red_indian']]
+print(rdr2)
+
+# can index on new list.
+print(rdr2[-1][0].capitalize()) #=> pinkerton
+```
+
+  * extend
+    * extend other iterable with the list in the last on the list
+```py
+
+a= ['A', 'B']
+e= ['C', 'D', 'F']
+a.extend(e)
+print(a) #=> ['A', 'B', 'C', 'D', 'F']
+
+```
+
+  * sort(reverse= False)
+    * if 'int' 
+      * smaller->bigger
+    * if 'str'
+      * alphabetical
+    * Cant go both of them
+
+      * reverse= False by default
+```py
+
+a= ['B', 'A', 'D', 'C']
+z= [9, 8, 1, 6, 7, 8, 2, 4, 3, 5]
+
+a.sort() #=> ['A', 'B', 'C', 'D']
+print(a)
+a.sort(reverse= True) #=> ['D', 'C', 'B', 'A']
+print(a)
+z.sort() #=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(z)
+z.sort(reverse= True) #=> [9, 8, 7, 6, 5, 4, 3, 2, 1]
+print(z)
+```
+
+  * reverse
+    * it is just reverse
+```py
+
+x= [9, 8, 7, 6, 5, 4, 3, 2, 1]
+b= ['A', 'B', 'C', 'D']
+x.reverse()
+b.reverse()
+print(x) #=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(b) #=> ['D', 'C', 'B', 'A']
+```
 
 
 

@@ -1,4 +1,79 @@
 # Arithmetic Operators:-
-print(23**4%2-1+100/5//2*7**9) #= 403536070.0
+print(23**4%2-1+100/5//2*7**9)      #= 403536070.0
+print(23**4%(6*3)+100/5//2*7**9)    #= 403536083.0
 
-(23**4%(6*3)+100/5//2*7**9)    #= 
+print('\n'); print('-' * 20); print('\n')
+
+# List:-
+players= ['mo salah', 'messi', 'cristiano', 'neymar']
+print(players)       #=> ['mo salah', 'messi', 'cristiano', 'neymar']
+print(type(players)) #=> list
+
+games= ['rdr2', '1', 'witcher3', '2']
+print(games)         #=> ['rdr2', '1', 'witcher3', '2']
+print(type(games), end='\n\n')   #=> list
+
+# list-index
+print(players[-1]) #=> neymar
+print(players[0].title())  #=> Mo Salah
+print(type(players[0]))    #=> str
+print(players[2])  #=> cristiano
+print(players[1], end='\n\n')  #=> messi
+
+# list-slicing
+print(players[-1 : -3 : -1]) #=> Neymar, Cristiano
+print(players[ :1], end='\n\n')  #=> Mo Salah
+
+# list-edit
+nationals= ['egypt', 'usa', 'kuwait', 'algeria']
+nationals[1]= 'saudi'
+nationals[-1]= 'jordan' 
+nationals[1]= 'algeria'
+nationals[2]= 3
+print(nationals, end='\n\n')
+
+nationals[2 : 4]= ['tunisia']
+print(nationals, end='\n\n')
+
+# list_methods #
+
+# .append
+print('-'*20, end='\n\n')
+rdr2= ['arthur', 'uncle', 'micah']
+rdr2.append('sadie')
+rdr2.append(888)
+print(rdr2)
+
+rdr2_bad= ['pinkerton', 'red_indian']
+rdr2.append(rdr2_bad)
+print(rdr2)
+
+# can index on new list.
+print(rdr2[-1][0].capitalize())
+
+# .extend
+a= ['A', 'B']
+e= ['C', 'D', 'F']
+a.extend(e)
+print(a, end='\n\n')
+
+# .sort()
+a= ['B', 'A', 'D', 'C']
+z= [9, 8, 1, 6, 7, 8, 2, 4, 3, 5]
+
+a.sort()
+print(a)
+a.sort(reverse= True)
+print(a)
+z.sort() 
+print(z)
+z.sort(reverse= True)
+print(z, end='\n\n')
+
+# .reverse()
+x= [9, 8, 7, 6, 5, 4, 3, 2, 1]
+b= ['A', 'B', 'C', 'D']
+x.reverse()
+b.reverse()
+print(x)
+print(b)
