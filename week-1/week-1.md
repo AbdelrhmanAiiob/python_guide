@@ -217,7 +217,7 @@ print(msg[::2]) #=> skip one character
 ```
 
   * split, rsplit
-    * convert the strings to list 
+    * convert the strings to array 
     * by default replace 'space' to 'comma'
     * take max num
 

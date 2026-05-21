@@ -79,7 +79,7 @@
   # (23**4%18+100/5//2*7**9) 
 
 #2- 9**7           => 40353607
-  # (23**4%18+100/5//2*40353607) 
+  # (23**4%18+100/5//2*40353607)
 
 #3- 23**4          => 279841
   # (279841%18+100/5//2*40353607)
@@ -90,13 +90,13 @@
 #5- 100/5          => 20.0
   # (13+20.0//2*40353607)
 
-#5- 20.0//2        => 10.0
+#6- 20.0//2        => 10.0
   # (13+10.0*40353607)
 
-#5- 10.0*40353607  => 403536070.0
+#7- 10.0*40353607  => 403536070.0
   # (13+403536070.0)
 
-#6- 13+403536070.0 => 403536083.0
+#8- 13+403536070.0 => 403536083.0
   # (403536083.0)
 
 # The Result => 403536083.0
@@ -190,7 +190,6 @@ print(a) #=> ['A', 'B', 'C', 'D', 'F']
     * if 'str'
       * alphabetical
     * Cant go both of them
-
       * reverse= False by default
 ```py
 
@@ -207,7 +206,7 @@ z.sort(reverse= True) #=> [9, 8, 7, 6, 5, 4, 3, 2, 1]
 print(z)
 ```
 
-  * reverse
+  * .reverse
     * it is just reverse
 ```py
 
@@ -218,7 +217,114 @@ b.reverse()
 print(x) #=> [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(b) #=> ['D', 'C', 'B', 'A']
 ```
+  * clear
+    * clear all data in list without remove it 
+```py
 
+list_name.clear()
+```
+  * copy
+    * take shallow copy
+      * if the main list edited, the copy not effect
+```py
+
+list_name.copy()
+```
+  * count
+```py
+
+list_name.count(element)
+```
+  * index
+```py
+
+list_name.index(element)
+```
+  * insert
+    * append data in anyplace.
+      * take index and put the data before
+      * negative=> on the left
+```py
+
+b= ['A', 'B', 'C', 'D']
+b.insert(0, 123)
+b.insert(-1, 5)
+print(b) #=> [123, 'A', 'B', 'C', 5, 'D']
+```
+  * pop
+    * take index
+      * take an element from the list
+      * 'take it'=> make it independent  
+```py
+
+b= ['A', 'B', 'C', 'D']
+c= b.pop(0)
+print(b)         #=> ['B', 'C', 'D']
+print(c.lower()) #=> a
+```
+---
+
+3. **tuple:-**
+    * Closed by '()' | can without it.
+    * Ordered so can access the on it
+    * Immutable so cant edit(by normal way)
+    * Not unique
+```py
+
+#syntax:-
+guess= ('rock', 'paper', 'scissors') #=> tuple.
+guess= 'rock', 'paper', 'scissors'   #=> tuple.
+
+num= ('tuple',) #=> tuple.
+num= 'tuple',   #=> tuple. 
+
+# cant edit:-
+# guess[0]= 1 error
+```
+
+#NOTE-tupleEdit
+```py
+
+# to edit a 'tuple' for some reason.
+  # change type, edit, back
+    # using 'list()' & 'tuple()' built-in function.
+
+nums= (1, 2, 3)
+nums= list(nums)
+nums[1]= 'two'
+nums= tuple(nums)
+print(nums)       #=> (1, 'two', 3)
+print(type(nums)) #=> tuple
+```
+
+  * repeat
+```py
+
+b= (4, 5, 6)
+print(b* 2)
+```
+
+  * **tuple_methods:-**
+
+    * .count() = TomatoTomato
+    * .index() = TomatoTomato
+
+    * LT_destruct |LT= list, tuple|
+      ```py
+
+      u= ('a', 'b', 'c')
+      a, b, c = u
+      print(a)
+      print(b)
+      print(c)
+
+      # to skip an index => TRICK |Fake container|
+      u= [1, 4, 2, 9, 3]
+      one, _, two, _,three = u
+      print(one)
+      print(two)
+      print(three, end='\n\n')
+      ```
 
 
 

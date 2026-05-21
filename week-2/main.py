@@ -13,14 +13,14 @@ games= ['rdr2', '1', 'witcher3', '2']
 print(games)         #=> ['rdr2', '1', 'witcher3', '2']
 print(type(games), end='\n\n')   #=> list
 
-# list-index
+# list_index
 print(players[-1]) #=> neymar
 print(players[0].title())  #=> Mo Salah
 print(type(players[0]))    #=> str
 print(players[2])  #=> cristiano
 print(players[1], end='\n\n')  #=> messi
 
-# list-slicing
+# list_slicing
 print(players[-1 : -3 : -1]) #=> Neymar, Cristiano
 print(players[ :1], end='\n\n')  #=> Mo Salah
 
@@ -76,4 +76,69 @@ b= ['A', 'B', 'C', 'D']
 x.reverse()
 b.reverse()
 print(x)
+print(b, end='\n\n')
+
+# .clear()
+x.clear()
+print(x, end='\n\n')
+
+# .copy()
+a= [1, 2, 3, 4]
+c= a.copy()
+print(a)
+print(c)
+
+a.append(5)
+print(a)
+print(c, end='\n\n')
+
+# .count()
+z= [9, 8, 1, 6, 7, 8, 2, 4, 1, 1, 3, 5]
+print(z.count(1), end='\n\n')
+
+# .index()
+print(z.index(9), end='\n\n')
+
+# .insert
+b= ['A', 'B', 'C', 'D']
+b.insert(0, 123)
+b.insert(-1, 5)
+print(b, end='\n\n')
+
+# .pop()
+b= ['A', 'B', 'C', 'D']
+c= b.pop(0)
 print(b)
+print(c.lower())
+
+print('\n'); print('-' * 20); print('\n')
+
+# tuple:-
+guess= ('rock', 'paper', 'scissors')
+
+# cant edit:-
+# guess[0]= 1 error
+
+a= (1, 2, 3)
+b= (4, 5, 6)
+
+# Everything in python is 'OBJECT'
+print(a[1] + b[-1], end='\n\n') #> 8
+
+# repeat.
+b= (4, 5, 6)
+print(b* 2, end='\n\n')
+
+# LT_destruct
+u= ('a', 'b', 'c')
+a, b, c = u
+print(a)
+print(b)
+print(c)
+
+# to skip an index => TRICK
+u= [1, 4, 2, 9, 3]
+one, _, two, _,three = u
+print(one)
+print(two)
+print(three, end='\n\n')
