@@ -1,7 +1,7 @@
 * **__Go to__**
   * __[README](../README.md)__
   * __[code.py](main.py)__
-  * __[assignments.py](assignments.py)__
+  * __[assignments.py](training.py)__
   <!-- * __[claudeAIassignment.py](assignments.py)__ -->
 
 1. **Arithmetic Operators:-**
@@ -120,6 +120,13 @@ games= ['rdr2', '1', 'witcher3', '2']
 print(games)         #=> ['rdr2', '1', 'witcher3', '2']
 print(type(games))   #=> list
 ```
+  #NOTE
+  ```py
+
+  # to remove more than element
+  del list_name['start':'end']
+  ```
+
   * **list_index:-**
 ```py
 print(players[-1]) #=> neymar

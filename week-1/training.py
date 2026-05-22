@@ -1,14 +1,13 @@
 '''
 
-- The Week-1 Assignment
-- The Level&Solve=> Depends on What u Learn Till Now
+- The Week-1 Training -
+- The Level&Solve=> Depends on What u Learn Till Now -
 
 '''
 
 name= 'aiiob'
 age= '21'
 country= 'egypt'
-
 print(
   f'''
   "Name: {name.capitalize()}"
@@ -45,7 +44,6 @@ print(
 print('\n'); print('-' * 20, end='\n\n')#-----------------------
 
 champions= 'al ahly of egypt'
-
 print(champions[1])
 print(f"'{champions[2]}'")
 print(champions[-1])
