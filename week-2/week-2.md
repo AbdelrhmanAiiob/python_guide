@@ -105,10 +105,10 @@
 ---
 
 2. **list:-**
-  * Closed by => []
-  * Not unique so can have diff data types
-  * Ordered so can access all elements in it
-  * Accept add, edit, delete
+    * Closed by => []
+    * Not unique so can have diff data types
+    * Ordered so can access all elements in it
+    * Accept add, edit, delete
 ```py
 
 # syntax:-

@@ -1,5 +1,6 @@
 '''
-- The First Week Assignment
+
+- The Week-1 Assignment
 - The Level&Solve=> Depends on What u Learn Till Now
 
 '''
@@ -32,7 +33,6 @@ print('\n'); print('-' * 20, end='\n\n')#-----------------------
 
 # output needed -> the same with signs -> in one line
 # "Hello '{Aiiob}', How You Doing \ """ Your Age Is "'21\'"" + And\/ Your Country Is: Egypt\'\"
-
 print(
   f'"Hello \'{{{name.capitalize()}}}\', How You Doing \\ """ Your Age Is "\'{age}\\\'"" + And\\/ Your Country Is: {country.capitalize()}\\\'\\\" "'
 )
@@ -53,11 +53,11 @@ print(champions[-1])
 print('\n'); print('-' * 20, end='\n\n')#-----------------------
 
 name = 'Elzero'
+
 # Needed Output
 # "lze"
 # "Ezr"
 # "rzE"
-
 print(name[1:4])
 print(name[::2])
 print(name[::2][::-1]) #=> - all data in python is object -
@@ -65,9 +65,9 @@ print(name[::2][::-1]) #=> - all data in python is object -
 print('\n'); print('-' * 20, end='\n\n')#-----------------------
 
 team= "#@#@barcelona#@#@"
+
 # Needed Output
 # barcelona
-
 print(team.strip('#@').capitalize())
 
 print('\n'); print('-' * 20, end='\n\n')#-----------------------

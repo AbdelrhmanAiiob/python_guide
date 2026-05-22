@@ -1,17 +1,17 @@
 # **Guide**
 
 1. **Goals** :-
-	* Understand deep algorithm and learn fundamental
-	* always clean code 
-	* Refresh self-mind in future
+	* Understand deep algorithm and learn fundamental.
+	* always clean code.
+	* Refresh self-mind in future.
 
 2. **MAP** :-
 
 	* weekly.    
-		* 18 video course to study.
-	    	* end of the week assignment
-		* 1H linuxOS study=> terminal, privileges, etc
-	    	* everyday assignment
+		* study 3Hs a day.
+	    	* end of the week assignment.
+		* 1H linuxOS study=> terminal, privileges, etc.
+	    	* everyday assignment.
 		<!-- * +Assignments from=> claudeAI -->
 
 ---
