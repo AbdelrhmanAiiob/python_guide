@@ -1,7 +1,7 @@
 * **__Go to__**
   * __[README](../README.md)__
   * __[code.py](main.py)__
-  * __[assignments.py](training.py)__
+  * __[training.py](training.py)__
   <!-- * __[claudeAIassignment.py](assignments.py)__ -->
 
 1. **Arithmetic Operators:-**

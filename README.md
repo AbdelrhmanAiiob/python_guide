@@ -16,13 +16,19 @@
 
 ---
 
-* [WEEK-1](/week-1/week-1.md)
+* **[WEEK-1](/week-1/week-1.md)**
 	* [main.py](/week-1/main.py)
 	* [training.py](/week-1/training.py)
 	<!-- * [ai_claude_assignments]() -->
 
 ---
 
-* [WEEK-2](/week-2/week-2.md)
+* **[WEEK-2](/week-2/week-2.md)**
 	* [main.py](/week-2/main.py)
 	* [training.py](/week-2/training.py)
+
+---
+
+* **[WEEK-3](/week-3/week-3.md)**
+	* [main.py](/week-3/main.py)
+	* [training.py](/week-3/training.py)
