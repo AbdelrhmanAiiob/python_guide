@@ -78,4 +78,31 @@ print(len(friends), end='\n\n')
 
 technologies = ["Html", "CSS", "JS", "Python", ["Django", "Flask", "Web"]]
 print(technologies[4][0])
-print(technologies[4][-1])
+print(technologies[4][-1], end='\n\n')
+
+username= 'single_tuple',
+print(type(username), end='\n\n')
+
+sell_accs= ['g2g', 'gameboost', 'zeusx']
+
+sell_accs= list(sell_accs)
+sell_accs[0]= 'eldorado'
+sell_accs= tuple(sell_accs)
+print(sell_accs)
+print(type(sell_accs))
+print(len(sell_accs), end='\n\n')
+
+nums= (1, 2, 3)
+letters= ('A', 'B', 'C')
+
+nutters= nums+letters
+print(nutters)
+print(len(nutters), end='\n\n')
+
+tNums= (1, 2, 3, 4)
+
+a, b, _, c = tNums
+
+print(a)
+print(b)
+print(c)
