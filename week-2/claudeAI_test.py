@@ -45,7 +45,7 @@ print("-" *20)
 
 text = "elzero-web_school"
 
-  # make upper after => ' ', '-', '_' #
+  # 'title' make upper after => ' ', '-', '_' #
 
 print(text.title()) #=> Elzero-Web_School
 
