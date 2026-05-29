@@ -26,6 +26,7 @@
 * **[WEEK-2](/week-2/week-2.md)**
 	* [main.py](/week-2/main.py)
 	* [training.py](/week-2/training.py)
+    	* __[AI_test.py](claudeAI_test.py)__ 
 
 ---
 
